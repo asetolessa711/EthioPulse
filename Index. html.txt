@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EthioPulse</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>EthioPulse</h1>
+    <p>Your pulse on Ethiopian news</p>
+  </header>
+  <nav>
+    <button onclick="navigateTo('home')">Home</button>
+    <button onclick="navigateTo('trending')">Trending</button>
+    <button onclick="navigateTo('submit')">Submit News</button>
+    <button onclick="navigateTo('profile')">Profile</button>
+  </nav>
+  <main id="content"></main>
+  <footer>
+    <p>&copy; 2024 EthioPulse. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
